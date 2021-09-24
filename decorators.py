@@ -15,7 +15,6 @@ def log(func):
 
 def debuglog(func):
     def innner(*args):
-        log(
         return func(*args)
 
 def debug(func):
