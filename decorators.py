@@ -12,12 +12,3 @@ def log(func):
         f.close()
         return func(*args)
     return inner
-
-def debuglog(func):
-    def innner(*args):
-        return func(*args)
-
-def debug(func):
-    def inner(*args):
-
-        return func(*args)
